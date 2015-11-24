@@ -1,0 +1,3 @@
+1. update Account set emai = 'scooby_doo@mail.com' where id = '1';
+2. update AddressBook set modifiedOn = '2015-12-10 15-20-32' where id = '1';
+3. update Entry set contentLineOne = '888-888-888' where firstName = 'Scrooge' and lastName = 'McDuck'; 
