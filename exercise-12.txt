@@ -1,0 +1,9 @@
+1. select count(*), accountId from AddressBook group by accountId order by count(*) desc limit 2;
+We are grouping by accountId ordering by accountId in descending order
+
+19 5,
+19, 14
+
+2. select count(*), addressBookId from Entry group by addressBookId order by count(*) desc limit 1;
+We are counting all entries, group them by addressBookId order them by count and select the highest one.
+52 id 37
