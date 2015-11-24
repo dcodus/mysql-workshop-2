@@ -1,0 +1,7 @@
+1. mysql-clt start;
+2. mysql -u codus;
+3. create database decode;
+4. use database decode;
+5. source /data/file_name;
+6. show tables;
+
