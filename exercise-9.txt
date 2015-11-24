@@ -1,0 +1,8 @@
+1. select count(*) from Account;
+Counting all the rows.
+1000 rows
+2. select count(*) from AddressBook;
+1100 rows
+
+3. select count(*) from Entry;
+4000
