@@ -1,0 +1,8 @@
+1. select count(*) from Entry where birthday < '1982-02-12';
+2687 where born before Feb 12 1982
+
+2. select count(*) from Entry where birthday >= '1965-01-01';
+2597 where born on or after Jan 1 1965; 0 where born on 01-01-1965;
+
+3. select firstName, lastName, birthday from Entry order by birthday limit 1;
+
