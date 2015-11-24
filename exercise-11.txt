@@ -1,0 +1,11 @@
+1. select count(*) from Entry where type != 'other';
+Used the != to see all entries whose type is not other 2800.
+
+2.select count(*) from Entry where type = 'home' or type = 'work';
+or select count(*) from Entry where type in ('home', 'work');
+
+2800 are listed as home or work
+
+3. select count(*) from Entry where subtype = 'phone';
+600 are listed as phone;
+
