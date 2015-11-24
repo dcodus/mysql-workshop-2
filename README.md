@@ -68,7 +68,7 @@ mysql> source <filename>
 ### Exercise 5
 * Delete all data from ```decodemtl_addressbook.Entry``` without using a ```DELETE``` statement
 
-### Exercise 6
+### Exercise 6 
 * Delete ```decodemtl_addressbook.Account``` and all associated date
 
 ### Exercise 7

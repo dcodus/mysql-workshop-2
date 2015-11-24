@@ -1,0 +1,2 @@
+1. truncate Entry;
+This will remove all data without affecting the structure.
